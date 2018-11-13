@@ -22,6 +22,6 @@
   </div>
 
   <div class="actions">
-    <%= f.submit @post.persisted? "Update Post" : "Submit Post" %>
+    <%= f.submit @post.persisted? ? "Update Post" : "Submit Post" %>
   </div>
 <% end %>
