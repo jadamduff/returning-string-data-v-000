@@ -22,7 +22,6 @@ class PostsController < ApplicationController
   end
 
   def update
-    raise params
     @post.update(post_params)
     redirect_to post_path(@post)
   end
